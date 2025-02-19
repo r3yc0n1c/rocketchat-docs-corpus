@@ -1,0 +1,14 @@
+instruction,context,response,category,reference
+What are supported official methods of deployment?,"Deploy Rocket.Chat using various methods while ensuring your system meets the required hardware, file storage, and MongoDB specifications. For production, the recommended approaches are:
+
+Docker & Docker Compose: For containerized deployment.
+AWS: Utilizing Docker for streamlined cloud deployment.
+Kubernetes: Using the official Helm chart for orchestration.
+Note: Snaps are suitable for development or testing but not for production. Additional options include Digital Ocean, Ubuntu, Windows 10, Debian, and CentOS. For troubleshooting, firewall configuration, updates, and scaling strategies, refer to the Deployment FAQ and related guides","For production, Rocket.Chat recommends:
+
+Docker & Docker Compose: Containerized deployment.
+AWS: Streamlined deployment using Docker.
+Kubernetes: Orchestrated deployment via the official Helm chart.
+Note: While Snaps offer a quick setup for development, they're not advised for production.
+
+Additional deployment/testing options include Digital Ocean (one-click install), Ubuntu, Windows 10, Debian, and CentOS. For troubleshooting, refer to the Deployment FAQ.",deployment,https://docs.rocket.chat/docs/deploy-rocketchat
